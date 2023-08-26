@@ -1,6 +1,6 @@
 const express = require('express');
 const fs = require('fs');
-const router = express.Router();
+const notes = express.Router();
 const db = require('../../db/db.json');
 
-module.exports = router;
+module.exports = notes;
