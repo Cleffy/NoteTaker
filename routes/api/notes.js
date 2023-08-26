@@ -23,7 +23,7 @@ notes.post('/', (request, response) => {
             const newNote = {
                 title,
                 text,
-                id: data.length
+                id: data.length + 1
             };
             data.push(newNote);
             writeToFile('./db/db.json', data);
@@ -34,7 +34,27 @@ notes.post('/', (request, response) => {
         }
     }
     catch(error){
-        response.status(500).json({ msg: 'Failed to append notes.' });
+        response.status(500).json({ msg: 'Failed to add a note.' });
+    }
+});
+
+// Delete a note
+notes.delete('/:id', (request, response) => {
+    try{
+        let data = readFromFile('./db/db.json');
+        let id = parseInt(request.params.id);
+        data = JSON.parse(data);
+        if(data.length >= id){
+            data.splice(id - 1, 1);
+        }
+        data.forEach((note, index) => {
+            note.id = index + 1;
+        });
+        writeToFile('./db/db.json', data);
+        response.json(data);
+    }
+    catch(error){
+        response.status(500).json({ msg: 'Failed to delete a note.' });
     }
 });
 

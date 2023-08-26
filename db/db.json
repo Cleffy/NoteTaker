@@ -1,17 +1,22 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": 0
-    },
-    {
-        "title": "A New Note",
-        "text": "This has some stuff",
+        "title": "General Thank You",
+        "text": "Thank you so much.\nThank you very much.\nI appreciate your consideration.\nI appreciate your guidance.\nI appreciate your help.\nI appreciate your time.\nI sincerely appreciate ….\nMy sincere appreciation.\nMy sincere gratitude.\nMy sincere thanks.\nMy thanks and appreciation.\nPlease accept my deepest thanks.\nThank you for your assistance.\nThank you for your consideration.\nThank you for your encouragement.\nThank you for your guidance.\nThank you for your support.\nThank you for your thoughtfulness.\nThank you for your time. ",
         "id": 1
     },
     {
-        "title": "Another Note",
-        "text": "Add note data here",
+        "title": "Business Thank You",
+        "text": "I appreciate your assistance and look forward to your continuing to work on our account.\nMany thanks for giving me this opportunity.\nThank you for referring [individual name] to me for [services provided].\nThank you for referring us to [company name].\nThanks very much for the assistance you provide my business. I sincerely appreciate it.",
         "id": 2
+    },
+    {
+        "title": "Personal Thank You",
+        "text": "I am grateful for your support.\nI appreciate you.\nI appreciate your taking the time.\nI value the insights and guidance you provide.\nI wanted to thank you as soon as possible.\nI truly appreciate the confidence you showed in me.\nI very much appreciate your help.\nIt was very thoughtful of you.\nThank you for your assistance.\nThank you for everything you do.\nYou are always so helpful.\nYou are the best.\nYou have been most helpful.\nYou have my gratitude.",
+        "id": 3
+    },
+    {
+        "title": "Professional Thank You",
+        "text": "I am so very thankful for your time.\nI appreciate the information and advice you have shared.\nI sincerely appreciate the assistance.\nMany thanks for your assistance.\nMany thanks for your time.\nThank you for accepting my connection request.\nThank you for connecting with me. It’s an honor!\nThank you for the assistance you have provided me with during my job search.\nThank you for all the help you have given me with my job search. \nThank you for taking the time to talk to me. I very much appreciate the time you spent discussing career options with me.\nThank you for providing me with advice.\nThank you for sharing your expertise.\nThank you for speaking with me. Your insights were truly helpful.\nThank you for spending time with me.\nThank you for taking time from your schedule to talk to me.",
+        "id": 4
     }
 ]
