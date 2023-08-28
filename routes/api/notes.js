@@ -2,7 +2,9 @@ const express = require('express');
 const notes = express.Router();
 const { readFromFile, writeToFile } = require('../../helpers/fsUtils');
 
-// Get all notes
+/**
+ * Gets all notes.
+ */
 notes.get('/', (request, response) => {
     try{
         let data = readFromFile('./db/db.json');
@@ -13,7 +15,9 @@ notes.get('/', (request, response) => {
     }
 });
 
-// Add a note
+/**
+ * Adds a note.
+ */
 notes.post('/', (request, response) => {
     try{
         const { title, text } = request.body;
@@ -38,7 +42,9 @@ notes.post('/', (request, response) => {
     }
 });
 
-// Delete a note
+/**
+ * Deletes a note based on ID.
+ */
 notes.delete('/:id', (request, response) => {
     try{
         let data = readFromFile('./db/db.json');

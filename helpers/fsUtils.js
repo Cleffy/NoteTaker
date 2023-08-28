@@ -1,5 +1,12 @@
 const fs = require('fs');
 
+/**
+ * readFromFile
+ * @param {*} file 
+ * @returns unparsed text
+ * 
+ * Takes in a file destination. Then returns the context in text format.
+ */
 function readFromFile(file){
     try{
         let response = fs.readFileSync(file, 'utf8');
@@ -11,6 +18,13 @@ function readFromFile(file){
     }
 }
 
+/**
+ * writeToFile
+ * @param {*} file 
+ * @param {*} content 
+ * 
+ * Takes in a file destination, and content. Then replaces anything in the file with the content.
+ */
 function writeToFile(file, content){
     try{
         fs.writeFileSync(file, JSON.stringify(content, null, 4));
@@ -21,6 +35,13 @@ function writeToFile(file, content){
     }
 }
 
+/**
+ * appendToFile
+ * @param {*} file 
+ * @param {*} content 
+ * 
+ * Takes in a file destination, and content. Assuming the file is JSON, it appends the content to the end of the JSON file.
+ */
 function appendToFile(file, content){
     try{
         let fileContents = fs.readFileSync(file, 'utf8');
