@@ -10,9 +10,9 @@
   ## <div id="Usage">Usage</div>
   Navigate to the homepage.  
   [Note Taker](https://cleffy-note-taker-7ee23a61bb03.herokuapp.com/)  
-  From here if you click on 'Get Started' you can begin adding notes to a universal collection.  
-  To add use the fields on the left to add a Title and Text. A save icon will appear that will save the note to the right hand column.  
-  If you want to view an old note, click on the note on the right hand column and it will fill in the fields on the right.  
+  Click on 'Get Started' to begin adding notes to a universal collection.  
+  To add a new note use the fields on the right-hand column to add a Title and Text. A save icon will appear that will save the note to the left-hand column.  
+  To view an old note, click on the note on the left-hand column and it will fill in the fields on the right.  
   You can delete a previous note by clicking the trashcan icon that corresponds to it.  
   You can clear the left hand column by clicking the [+] icon which will allow you to enter a new note.
   ## <div id="License">License</div>
