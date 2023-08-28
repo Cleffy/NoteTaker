@@ -28,3 +28,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
   [GitHub - Cleffy](https://github.com/Cleffy/)  
   ## <div id="References">References</div>
   Alison Doyle. *Thank-You Messages, Phrases, and Wording Examples*, December 22, 2022 <https://www.thebalancemoney.com/thank-you-phrases-and-wording-2064014#toc-general-thank-you-phrases><br>
+  University of Berkely Bootcamp by EdX. *Provided front-end code.*
